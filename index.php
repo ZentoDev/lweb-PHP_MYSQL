@@ -1,4 +1,4 @@
-<?xml version = "1.0" encoding="ISO-8859-1"?>
+<?php echo '<?xml version = "1.0" encoding="ISO-8859-1"?>'?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -39,6 +39,10 @@
                 <li><a href="pag2.html">Stazione spaziale internazionale</a></li>
                 <li><a href="pag3.html">Telescopio spaziale Hubble</a></li>
                 <li><a href="pag4.html">ESA</a></li>
+            </ul>
+
+            <ul class="nav" style="background: yellow;">
+            <li><a href="login.php">Prenota visita</a></li>
             </ul>
         </div>
 

@@ -11,6 +11,7 @@ body {
 }
 
 #top #titolo {
+    margin-left: 9%;
     text-align: center;
     font-size: 60px;
 }
@@ -92,4 +93,18 @@ img.dx {
     float: right;
 	padding-right: 40px;
     padding-top: 20px;
+}
+
+ #content .log{
+	background-color: #859bd8;
+    text-align: center;
+	padding: 5em;
+    margin-top: 10%;
+	margin-right: 14%;
+    padding-left: 2%;
+	margin-left: 14%;
+	border-left-style: solid;
+	border-right-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
 }
