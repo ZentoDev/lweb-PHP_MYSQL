@@ -29,7 +29,7 @@ if(isset($_POST['prenota'])){
             }
         }
         else $mex='Deve essere inserita una data nel futuro, 
-                   non abbiamo ancora inventato i viaggi nel tempo';
+                   non abbiamo ancora scoperto i viaggi nel tempo';
     }
     else $mex='selezione non completa';    
 }
@@ -82,14 +82,21 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         </form>
         <?php 
         echo "<hr /> $mex <br />" ;
-        echo $_POST['luogo']. " --- " .$_POST['date']. " --- " .$_SESSION['username'];
+
+        if(isset($_POST['luogo']) && isset($_POST['date']) )
+            echo $_POST['luogo']. " --- " .$_POST['date']. " --- " .$_SESSION['username'];
         ?>
 
     </div>
     <div id="navbar" class="colonna">
         <ul class="nav">
-            <li><a href="disdetta.php">Disdici visita</a></li>
+            <li><a href="prenotazione.php">Prenota visita</a></li>
+            <li><a href="disdici.php">Disdici visita</a></li>
             <li><a href="visualizzavisite.php">Visualizza visite prenotate</a></li>
+        </ul>
+
+        <ul class="nav" style="background: yellow;">
+            <li><a href="logout.php">Logout</a></li>
         </ul>
     </div>
 </div>
