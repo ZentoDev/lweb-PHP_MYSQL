@@ -30,7 +30,7 @@ if(isset($_POST['invio'])){
 				$_SESSION['data_login']=time();
 				$_SESSION['accesso_permesso']=100;
 				//indirizzo il client verso la pagina iniziale del sito
-                header('Location: pag_iniziale.php');    
+                header('Location: prenotazione.php');    
                 exit();
             }
 			else {$accessonegato=1;}

@@ -42,7 +42,7 @@
             </ul>
 
             <ul class="nav" style="background: yellow;">
-            <li><a href="login.php">Prenota visita</a></li>
+            <li><a href="prenotazione.php">Prenota visita</a></li>
             </ul>
         </div>
 

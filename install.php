@@ -84,7 +84,7 @@ $create_table_query = "CREATE TABLE if not exists $booking_table_name (
 			primary key (booking_id), 
             place varchar (50) NOT NULL, 
             date_visit date NOT NULL ,
-			visitor float NOT NULL
+			visitor varchar (40) NOT NULL
             );";
 
 
